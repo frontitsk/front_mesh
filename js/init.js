@@ -176,7 +176,7 @@ $(function () { // DOM ready
     var ua = navigator.userAgent;
     ua = ua.toLowerCase();
     if(ua.indexOf('android') > -1) {
-      $('#android_link').attr('href', 'market://details?id=com.frontitsk.front_mesh');
+      $('#android_link').attr('href', 'market://details?id=sk.frontit.frontmesh');
     }
 
   }
