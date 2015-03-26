@@ -141,7 +141,7 @@ $(function () { // DOM ready
 
   $('.bt_new_game').live('click', function () {
     // tracking Google Analytics
-    _gaq.push(['_trackEvent', 'Fruit Salad', 'Play again', 'Play again']);
+    _gaq.push(['_trackEvent', 'Front Mesh', 'Play again', 'Play again']);
     init_game();
   });
 
@@ -176,7 +176,7 @@ $(function () { // DOM ready
     var ua = navigator.userAgent;
     ua = ua.toLowerCase();
     if(ua.indexOf('android') > -1) {
-      $('#android_link').attr('href', 'market://details?id=com.phonegap.fruit_salad');
+      $('#android_link').attr('href', 'market://details?id=com.frontitsk.front_mesh');
     }
 
   }
@@ -495,7 +495,7 @@ function verif_tableau() {
         }, 7000);
       } else {
         // tracking Google Analytics
-        _gaq.push(['_trackEvent', 'Fruit Salad', 'Game over', 'Game over', score]);
+        _gaq.push(['_trackEvent', 'Front Mesh', 'Game over', 'Game over', score]);
         $('#zone_message').html('<div class="bad">GAME OVER</div>');
         $('#zone_message').append('<div class="good">' + score + ' points</div>');
         if (score > best_score) {
@@ -509,7 +509,6 @@ function verif_tableau() {
           localStorage.setItem('best_combo', best_combo);
           $('#best_combo_num').html(best_combo);
         }
-        $('#zone_message').append('<a target="_blank" href="http://www.baptistebrunet.com/games/" class="button">More games</a>');
         $('#zone_message').append('<div class="button bt_new_game">Play again</div>');
 
       }

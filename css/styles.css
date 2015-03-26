@@ -27,7 +27,7 @@ a:hover{text-decoration:underline;}
 
 #page{margin: 0 auto; max-width: 640px; min-height: 416px; position: relative;}
 
-#logo{margin: 0 auto;background-image: url(../images/picto/front-mesh-logo.png);width:144px;height:40px;}
+#logo{margin: 14px auto;background-image: url(../images/picto/front-mesh-logo.png);width:144px;height:40px;}
 
 #zone_score{font: 14px OpenSans-Light,Arial,sans-serif; padding: 5px;}
 .col_score{float: left;}
