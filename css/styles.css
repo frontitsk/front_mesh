@@ -1,6 +1,6 @@
 /* reset */
 html{margin:0; padding:0; background: #5A96C8;}
-body{margin:0; padding:0; font:normal 12px arial, sans-serif; color:white;}
+body{margin:0; padding:0; font:normal 12px OpenSans-Light,Arial,sans-serif; color:white;}
 img{border:none;}
 a{text-decoration:none;}
 a:hover{text-decoration:underline;}
@@ -201,22 +201,22 @@ a:hover{text-decoration:underline;}
   display: inline-block;
   color: #fafafa;
   text-shadow: 0 -1px rgba(0, 0, 0, 0.5);
-  background: #eeeeee; /* Old browsers */
-  background: -moz-linear-gradient(top,  #eeeeee 0%, #999999 100%); /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#eeeeee), color-stop(100%,#999999)); /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(top,  #eeeeee 0%,#999999 100%); /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(top,  #eeeeee 0%,#999999 100%); /* Opera 11.10+ */
-  background: -ms-linear-gradient(top,  #eeeeee 0%,#999999 100%); /* IE10+ */
-  background: linear-gradient(to bottom,  #eeeeee 0%,#999999 100%); /* W3C */
+  background: #5A96C8; /* Old browsers */
+  background: -moz-linear-gradient(top,  #5A96C8 0%, #054173 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#5A96C8), color-stop(100%,#054173)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  #5A96C8 0%,#054173 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  #5A96C8 0%,#054173 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  #5A96C8 0%,#054173 100%); /* IE10+ */
+  background: linear-gradient(to bottom,  #5A96C8 0%,#054173 100%); /* W3C */
 }
 #zone_message .button:hover{
-  background: #dddddd; /* Old browsers */
-  background: -moz-linear-gradient(top,  #dddddd 0%, #888888 100%); /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#dddddd), color-stop(100%,#888888)); /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(top,  #dddddd 0%,#888888 100%); /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(top,  #dddddd 0%,#888888 100%); /* Opera 11.10+ */
-  background: -ms-linear-gradient(top,  #dddddd 0%,#888888 100%); /* IE10+ */
-  background: linear-gradient(to bottom,  #dddddd 0%,#888888 100%); /* W3C */
+  background: #4985B7; /* Old browsers */
+  background: -moz-linear-gradient(top,  #4985B7 0%, #003062 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#4985B7), color-stop(100%,#003062)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  #4985B7 0%,#003062 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  #4985B7 0%,#003062 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  #4985B7 0%,#003062 100%); /* IE10+ */
+  background: linear-gradient(to bottom,  #4985B7 0%,#003062 100%); /* W3C */
 }
 #zone_message .bt-app-wall {
   display: none;
